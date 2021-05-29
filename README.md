@@ -1,9 +1,12 @@
 # k8s-vagrant
-Create a local kubernetes cluster using virtualbox and monitoring with Prometheus
-Credit: [danielepolencic](https://github.com/danielepolencic) -> [gist](https://gist.github.com/danielepolencic/ef4ddb763fd9a18bf2f1eaaa2e337544).
-Credit: https://github.com/LocusInnovations/k8s-vagrant-virtualbox
+Create a local kubernetes cluster using virtualbox and monitoring with Prometheus<br>
+### Credits:
+  [danielepolencic](https://github.com/danielepolencic) -> [gist](https://gist.github.com/danielepolencic/ef4ddb763fd9a18bf2f1eaaa2e337544)<br>
+  https://github.com/LocusInnovations/k8s-vagrant-virtualbox
+
 
 The vagrant file will do the following:
+---------------------------------------
 1.  Provision all local VMs using VirtualBox with Port forwarding to access Prometheus(30090), Alert Manager(30093) and Grafana(30000)
 2.  Patch the OS
 3.  Install Docker
