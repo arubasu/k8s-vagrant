@@ -29,7 +29,7 @@ Instal [git](https://git-scm.com/downloads) if you don't already have it.
 ## Open a shell and clone
 
 ```bash
-$ git clone https://github.com/arubasu/k8s-vagrant
+$ git clone https://github.com/arubasu/k8s-vagrant.git
 $ cd k8s-vagrant
 ```
 
@@ -80,5 +80,5 @@ $ ssh node2
 $ ssh node3
 ```
 
-Follow the links for installting Prometheus setup for this k8s cluster.
+### Follow the link for installting Prometheus setup for this k8s cluster.
 https://github.com/arubasu/k8s-prometheus
